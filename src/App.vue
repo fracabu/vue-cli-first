@@ -1,6 +1,7 @@
 <template>
   <div>
     <Title></Title>
+    
   </div>
 </template>
 
@@ -10,6 +11,7 @@ import Title from './components/Title.vue';
 export default {
   components : {
     Title,
+    
   },
   data(){
     return{

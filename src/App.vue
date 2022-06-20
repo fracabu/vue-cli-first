@@ -1,6 +1,7 @@
 <template>
   <div>
     <Title></Title>
+    <JumboTron></JumboTron>
 
 
   </div>
@@ -8,14 +9,14 @@
 
 <script>
 import Title from './components/Title.vue';
+import JumboTron from './components/JumboTron.vue';
 
 
 export default {
   components: {
     Title,
-
-
-  },
+    JumboTron
+},
   data() {
     return {
       message: 'Hello Vue',

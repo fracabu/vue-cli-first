@@ -1,21 +1,24 @@
 <template>
   <div>
     <Title></Title>
-    
+
+
   </div>
 </template>
 
 <script>
 import Title from './components/Title.vue';
 
+
 export default {
-  components : {
+  components: {
     Title,
-    
+
+
   },
-  data(){
-    return{
-    message: 'Hello Vue',
+  data() {
+    return {
+      message: 'Hello Vue',
     }
   }
 }
